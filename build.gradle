@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.17.3'
+}
+
+group = 'com.example.todo'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    version = '2023.2.2'
+    type = 'IC' // IntelliJ Community
+    plugins = ['java'] // ✅ Groovy-style
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+patchPluginXml {
+    sinceBuild = '232'
+    untilBuild = '241.*'
+}

@@ -1,0 +1,17 @@
+<idea-plugin>
+  <id>com.example.todo</id>
+  <name>TODOs</name>
+  <version>1.0</version>
+  <vendor email="23pa1a5708@vishnu.edu.in">Garikimukku Chandrahas</vendor>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow
+            id="TODOs Plugin"
+            anchor="right"
+            factoryClass="com.example.todo.TodoToolWindowFactory"/>
+    <projectService serviceImplementation="com.example.todo.TodoHighlighter"/>
+  </extensions>
+</idea-plugin>
