@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.example.todo</id>
+  <id>com.todo</id>
   <name>TODOs</name>
   <version>1.0</version>
   <vendor email="23pa1a5708@vishnu.edu.in">Garikimukku Chandrahas</vendor>
