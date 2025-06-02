@@ -1,4 +1,4 @@
-package com.todo;
+package com.example.todo;
 
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.EditorFactory;

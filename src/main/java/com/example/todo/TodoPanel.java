@@ -1,4 +1,4 @@
-package com.todo;
+package com.example.todo;
 
 import com.intellij.openapi.fileEditor.OpenFileDescriptor;
 import com.intellij.openapi.project.Project;

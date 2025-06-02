@@ -46,7 +46,7 @@ Inside `resources/META-INF/plugin.xml`:
 
 ```xml
 <idea-plugin>
-    <id>com.todo</id>
+    <id>com.example.todo</id>
     <name>TODOs</name>
     <version>1.0</version>
     <vendor email="23pa1a5708@vishnu.edu.in">Garikimukku Chandrahas</vendor>
@@ -58,8 +58,8 @@ Inside `resources/META-INF/plugin.xml`:
         <toolWindow
                 id="TODOs Plugin"
                 anchor="right"
-                factoryClass="com.todo.TodoToolWindowFactory"/>
-        <projectService serviceImplementation="com.todo.TodoHighlighter"/>
+                factoryClass="com.example.todo.TodoToolWindowFactory"/>
+        <projectService serviceImplementation="com.example.todo.TodoHighlighter"/>
     </extensions>
 </idea-plugin>
 

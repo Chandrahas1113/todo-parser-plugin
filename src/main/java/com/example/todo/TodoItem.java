@@ -1,4 +1,4 @@
-package com.todo;
+package com.example.todo;
 
 public class TodoItem {
     private final String fileName;

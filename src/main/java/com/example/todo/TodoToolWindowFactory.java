@@ -1,6 +1,5 @@
-// file: src/main/java/com/example/todo/TodoToolWindowFactory.java
 
-package com.todo;
+package com.example.todo;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
