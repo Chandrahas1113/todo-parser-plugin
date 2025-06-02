@@ -11,7 +11,7 @@
     <toolWindow
             id="TODOs Plugin"
             anchor="right"
-            factoryClass="com.example.todo.TodoToolWindowFactory"/>
-    <projectService serviceImplementation="com.example.todo.TodoHighlighter"/>
+            factoryClass="com.todo.TodoToolWindowFactory"/>
+    <projectService serviceImplementation="com.todo.TodoHighlighter"/>
   </extensions>
 </idea-plugin>
